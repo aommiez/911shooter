@@ -2,3 +2,6 @@ RewriteEngine On
 
 RewriteRule ^dj/([0-9]+)$ dj.php?id=$1
 RewriteRule ^dj/([0-9]+)$ /dj/$1 [R]
+
+RewriteRule ^djedit/([0-9]+)$ dj_edit.php?id=$1
+RewriteRule ^djedit/([0-9]+)$ /djedit/$1 [R]

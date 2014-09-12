@@ -3,7 +3,6 @@ session_start();
 require_once "model/CoreModel.php";
 $profile = CoreModel::getDjProfileById($_GET['id'])->fetchAll();
 $profile = $profile[0];
-
 ?>
 <!DOCTYPE html>
 <html>
